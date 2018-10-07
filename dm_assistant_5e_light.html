@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.csszengarden.com/zengarden.xml"> -->
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="author" content="Robert Marini">
+	<meta name="author" content="Robert M">
 	<meta name="description" content="A collection of resources with integration between them for making a 5e DM's life better.">
 	<meta name="robots" content="all">
 
@@ -55,6 +55,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<dd><b>Outputs:</b> An interactive experience to run an encounter to its finality.</dd>
 					</dl>
 				</dd>
+			</dl>
+		</div>
+
+<div class="resource-blurb" id="monsters" role="main">
+			<h3>Monster Tactics</h3>
+			<dl>
+			<dt><b>The Monsters Know What They Are Doing!</b>
+				<dd>
+					<dl>
+						<dt><a href="http://themonstersknow.com/">The Monsters Know</a></dt>
+						<dd>Fantastic searchable resource (with url api) to provide in depth monster tactic information for actions in battle.</dd>
+						<dd><b>API Search</b>: Returns small blurbs about the returns of the search.
+							<dl><dd><a href="http://themonstersknow.com/?s=kobold">http://themonstersknow.com/?s=kobold</a></dd></dl>
+						</dd>
+						<dd><b>Direct URL To Posts</b>: Goes directly to the monster page. The monster's information is found in full but extra info in secondary posts. These posts are titled in the same way they are referenced by url.
+							<dl><dd><a href="http://themonstersknow.com/kobold-tactics/">http://themonstersknow.com/kobold-tactics/</a></dd></dl>
+						</dd>
+					</dl>
+				</dd>
+			</dt>
 			</dl>
 		</div>
 
@@ -184,23 +204,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<h3 class="select">Select a Design:</h3>
 				<nav role="navigation">
 					<ul>
-					<li>
-						<a href="/221/" class="design-name">Mid Century Modern</a> by						<a href="http://andrewlohman.com/" class="designer-name">Andrew Lohman</a>
-					</li>					<li>
-						<a href="/220/" class="design-name">Garments</a> by						<a href="http://danielmall.com/" class="designer-name">Dan Mall</a>
-					</li>					<li>
-						<a href="/219/" class="design-name">Steel</a> by						<a href="http://steffen-knoeller.de" class="designer-name">Steffen Knoeller</a>
-					</li>					<li>
-						<a href="/218/" class="design-name">Apothecary</a> by						<a href="http://trentwalton.com" class="designer-name">Trent Walton</a>
-					</li>					<li>
-						<a href="/217/" class="design-name">Screen Filler</a> by						<a href="http://elliotjaystocks.com/" class="designer-name">Elliot Jay Stocks</a>
-					</li>					<li>
-						<a href="/216/" class="design-name">Fountain Kiss</a> by						<a href="http://jeremycarlson.com" class="designer-name">Jeremy Carlson</a>
-					</li>					<li>
-						<a href="/215/" class="design-name">A Robot Named Jimmy</a> by						<a href="http://meltmedia.com/" class="designer-name">meltmedia</a>
-					</li>					<li>
-						<a href="/214/" class="design-name">Verde Moderna</a> by						<a href="http://www.mezzoblue.com/" class="designer-name">Dave Shea</a>
-					</li>					</ul>
+						<li>
+							<a href="<?php echo $this->config->base_url()?>dc_prob_calc" class="function-link">DC Probability Calculator</a>
+						</li>
+						<li>
+							<a href="/221/" class="design-name">Mid Century Modern</a> by						<a href="http://andrewlohman.com/" class="designer-name">Andrew Lohman</a>
+						</li>					<li>
+							<a href="/220/" class="design-name">Garments</a> by						<a href="http://danielmall.com/" class="designer-name">Dan Mall</a>
+						</li>					<li>
+							<a href="/219/" class="design-name">Steel</a> by						<a href="http://steffen-knoeller.de" class="designer-name">Steffen Knoeller</a>
+						</li>					<li>
+							<a href="/218/" class="design-name">Apothecary</a> by						<a href="http://trentwalton.com" class="designer-name">Trent Walton</a>
+						</li>					<li>
+							<a href="/217/" class="design-name">Screen Filler</a> by						<a href="http://elliotjaystocks.com/" class="designer-name">Elliot Jay Stocks</a>
+						</li>					<li>
+							<a href="/216/" class="design-name">Fountain Kiss</a> by						<a href="http://jeremycarlson.com" class="designer-name">Jeremy Carlson</a>
+						</li>					<li>
+							<a href="/215/" class="design-name">A Robot Named Jimmy</a> by						<a href="http://meltmedia.com/" class="designer-name">meltmedia</a>
+						</li>					<li>
+							<a href="/214/" class="design-name">Verde Moderna</a> by						<a href="http://www.mezzoblue.com/" class="designer-name">Dave Shea</a>
+						</li>					
+					</ul>
 				</nav>
 			</div>
 
